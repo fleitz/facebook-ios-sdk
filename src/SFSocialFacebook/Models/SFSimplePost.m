@@ -22,6 +22,7 @@
 @synthesize objectId;
 @synthesize from;
 @synthesize message;
+@synthesize story;
 @synthesize picture;
 @synthesize link;
 @synthesize name;
@@ -54,6 +55,7 @@
     [actionLink release];
     [createdTime release];
     [updatedTime release];
+    [story release];
     
     [super dealloc];
 }

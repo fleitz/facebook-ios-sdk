@@ -23,6 +23,7 @@
 
 @property(nonatomic, retain) NSString *objectId;
 @property(nonatomic, retain) SFSimpleUser *from;
+@property(nonatomic, retain) NSString *story;
 @property(nonatomic, retain) NSString *message;
 @property(nonatomic, retain) NSString *picture;
 @property(nonatomic, retain) NSString *link;

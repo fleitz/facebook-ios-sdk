@@ -1007,6 +1007,7 @@ static SFSocialFacebook *_instance;
             }
             
             post.message = [obj objectForKey:@"message"];
+            post.story = [obj objectForKey:@"story"];
             post.picture = [obj objectForKey:@"picture"];
             post.link = [obj objectForKey:@"link"];
             post.name = [obj objectForKey:@"name"];
